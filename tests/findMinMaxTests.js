@@ -25,26 +25,26 @@ describe('Min-Max Numbers in a List: ', function () {
     it('should return [4] for [4, 4, 4, 4]', function () {
       expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [5] for [5, 5, 5, 5]', function () {
+      expect(findMinMax([5, 5, 5, 5])).toEqual([5]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [6] for [6, 6, 6, 6]', function () {
+      expect(findMinMax([6, 6, 6, 6])).toEqual([6]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [7] for [7, 7, 7, 7]', function () {
+      expect(findMinMax([7, 7, 7, 7])).toEqual([7]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [8] for [8, 8, 8, 8]', function () {
+      expect(findMinMax([8, 8, 8, 8])).toEqual([8]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [9] for [9, 9, 9, 9]', function () {
+      expect(findMinMax([9, 9, 9, 9])).toEqual([9]);
     });
-    it('should return [4] for [4, 4, 4, 4]', function () {
-      expect(findMinMax([4, 4, 4, 4])).toEqual([4]);
+    it('should return [10] for [10, 10, 10, 10]', function () {
+      expect(findMinMax([10, 10, 10, 10])).toEqual([10]);
     });
 
   });
 
-}
+});
 }
